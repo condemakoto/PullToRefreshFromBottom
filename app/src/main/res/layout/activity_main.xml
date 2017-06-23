@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <kun.conde.pulltorefreshfrombottom.PullToRefreshFromBottom
+        android:id="@+id/pullToRefreshView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:closeAnimationDuration="1000"
+        app:maxHeight="300dp">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             />
+
+    </kun.conde.pulltorefreshfrombottom.PullToRefreshFromBottom>
+
+</RelativeLayout>

@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="pull_area_height">150dp</dimen>
+    <dimen name="pull_threshold_height">100dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PullToRefreshView">
+        <attr name="maxHeight" format="dimension" />
+        <attr name="pullThresholdToRefresh" format="dimension" />
+        <attr name="closeAnimationDuration" format="integer" />
+    </declare-styleable>
+</resources>
